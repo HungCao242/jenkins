@@ -138,7 +138,7 @@ exports.config = {
          {
             outputDir: "./report",
             outputFileFormat: function (options) {
-               return `result-${new Date().getTime()}.xml`;
+               return `results-${new Date().getTime()}.xml`;
             },
          },
       ],
