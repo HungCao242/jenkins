@@ -3,6 +3,6 @@ describe("React application home page", () => {
       await browser.url("/");
       let text = await $(".App-link");
       await text.waitForDisplayed({ timeout: 3000 });
-      await expect(text).toHaveText("Learn React");
+      await expect(text).toHaveText("Learn React JS");
    });
 });
